@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/listao"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/color_bg"
+        android:orientation="vertical"></ListView>
+
+    <Button
+        android:id="@+id/backToMainFromAlbum"
+        style="@style/BackToMainButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/backToMain" />
+</LinearLayout>
