@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="LLpadding">20dp</dimen>
+    <dimen name="LLPadding">20dp</dimen>
     <dimen name="AlbumsPaddingBottom">10dp</dimen>
-    <dimen name="NSAlbumPadding">16dp</dimen>
     <dimen name="SongNowPlayingPadding">18dp</dimen>
     <dimen name="SeekBarTextViewPadding">10dp</dimen>
     <dimen name="SkipButtonMargin">10dp</dimen>
     <dimen name="BackToMain">6dp</dimen>
+    <dimen name="LLSongTitleAndTruckNoPaddingStart">16dp</dimen>
+    <dimen name="LLSongTitleAndTruckNoPaddingEnd">16dp</dimen>
+    <dimen name="NowPlayingPaddingBottom">10dp</dimen>
+    <dimen name="NowPlayingButtonsPaddingTop">4dp</dimen>
 </resources>

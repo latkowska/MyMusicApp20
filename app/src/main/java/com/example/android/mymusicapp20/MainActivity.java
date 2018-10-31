@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Find the View that shows the Nina Simone "I put a spel on you" album
+        // Find the View that shows the Nina Simone "I put a spell on you" album
         TextView nsAlbum = (TextView) findViewById(R.id.NS_textView);
 
         // Set a click listener on that View

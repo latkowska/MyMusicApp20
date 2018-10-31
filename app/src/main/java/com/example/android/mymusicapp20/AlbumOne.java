@@ -10,9 +10,6 @@ public class AlbumOne {
 
     /**
      * Create a new AlbumOne object.
-     *
-     * @param title is title of the song
-     * @param track is the number of song in album
      */
     public AlbumOne(String title, String track) {
         tTitle = title;
@@ -29,4 +26,3 @@ public class AlbumOne {
         return tTrack;
     }
 }
-

@@ -18,7 +18,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/NowPlayingPaddingBottom">
 
             <TextView
                 style="@style/SongNowPlaying"
@@ -29,7 +30,7 @@
             <SeekBar
                 android:id="@+id/seekBar"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"></SeekBar>
+                android:layout_height="wrap_content" />
 
             <TextView
                 style="@style/seekBarTextViewStyle"
@@ -42,7 +43,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:paddingTop="20dp">
+            android:paddingTop="@dimen/NowPlayingButtonsPaddingTop">
 
             <ImageView
                 android:layout_width="0dp"
@@ -80,7 +81,6 @@
                 android:layout_weight="1"
                 android:src="@drawable/re" />
         </LinearLayout>
-
     </LinearLayout>
 
     <LinearLayout
